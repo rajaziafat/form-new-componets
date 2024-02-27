@@ -103,7 +103,7 @@ function Modal({ isOpen, onClose }) {
             ...provided,
             color: '#fff', // Change the color of the cross icon
             ':hover': {
-                backgroundColor: 'red', // Change the background color on hover if needed
+                backgroundColor: '#21c55e', // Change the background color on hover if needed
                 color: '#fff', // Change the color on hover if needed
             },
         }),
