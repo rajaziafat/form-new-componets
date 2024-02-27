@@ -78,6 +78,7 @@ function Modal({ isOpen, onClose }) {
             '&::placeholder': {
                 color: '#fff !important', // Adjust placeholder color here
             },
+            
         }),
         menu: (provided, state) => ({
             ...provided,
@@ -89,12 +90,10 @@ function Modal({ isOpen, onClose }) {
             ...provided,
             backgroundColor: 'RGBA(33,171,83,0.5)', // Change multi-value tag background color
             borderRadius: '5px',
-            height: '22px',
         }),
         multiValueLabel: (provided, state) => ({
             ...provided,
             color: '#fff',
-            height: '22px', // Change multi-value tag text color
             display: 'flex',
             alignItems: 'center', // Center vertically
             justifyContent: 'center', // Center horizontally
