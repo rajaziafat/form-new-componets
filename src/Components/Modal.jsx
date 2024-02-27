@@ -99,6 +99,15 @@ function Modal({ isOpen, onClose }) {
             justifyContent: 'center', // Center horizontally
         }),
 
+        multiValueRemove: (provided, state) => ({
+            ...provided,
+            color: '#fff', // Change the color of the cross icon
+            ':hover': {
+                backgroundColor: 'red', // Change the background color on hover if needed
+                color: '#fff', // Change the color on hover if needed
+            },
+        }),
+
     };
 
 
