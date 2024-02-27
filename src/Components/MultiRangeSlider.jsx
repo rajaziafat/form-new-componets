@@ -14,7 +14,7 @@ function MultiRangeSlider() {
     };
 
     return (
-        <div className='w-full flex items-center space-x-2 max-w-[320px]'>
+        <div className=' flex items-center space-x-2 max-w-[320px]'>
             <div className='relative w-full'>
                 <input
                     type="range"
